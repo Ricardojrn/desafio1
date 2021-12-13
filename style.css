@@ -55,14 +55,18 @@ button{
     border-radius: 14px;
 }
 img{
+    display: block;
     max-width: 64%;
     height: auto;
     margin:95px 0 0 460px;
+    flex: 1 1 360px;
 }
-#container{
+.container{
     display: flex;
+    flex-wrap: wrap;
 }
-#text{
+.container_text{
+    flex: 6 1 160px;
     margin-left: 80px;
     position: absolute;
 }
