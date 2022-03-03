@@ -29,6 +29,7 @@ img {
     justify-content: space-between;
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 .menu_logo {
@@ -50,34 +51,47 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+/******************************/
+/* CORPO                      */
+/*****************************/
 section div {
     font-family: var(--ff-primary);
     color: var(--cor-cinza);
     font-size: 18px;
     padding: 0 30px
 }
-.img {
-    margin-top: 90px;
-    margin-left: 270px;
-}
-.titulo1 {
-    margin-top: 90px;
-    font-size: 50px;
-}
-.titulo2 {
-    font-size: 22px;
-    font-weight: normal;
+.container {
+    position:relative;
+    left:150px;
 }
 .container_c {
     max-width: 860px;
-    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
 }
 .container_text {
     position: absolute;
-    flex: 6 1 160px;
 }
-.container_img {
-    flex: 1 1 360px;
+.img {
+    margin-top: 90px;
+    margin-left: 280px;
+    max-width: 750px;
+    max-height: 420px;
+}
+.titulo1 {
+    margin-top: 90px;
+    font-size: 52px;
+}
+.titulo2 {
+    font-size: 22.5px;
+    font-weight: normal;
+}
+.container_button {
+    background-color:var(--cor-laranja);
+    color:#FFF;
+    border: none;
+    text-align: center;
+    margin-top:30px;
+    padding: 15px 65px;
+    font-size:25px;
+    border-radius: 10px;
 }
